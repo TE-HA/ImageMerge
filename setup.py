@@ -12,7 +12,7 @@ setup(
     packages = find_packages(),
     include_package_data = True,
     platforms = "any",
-    install_requires =['numpy>=1.8', 'opencv>=4.2'],
+    install_requires =[],
     entry_points={'console_scripts': [
         'ent = mergepic.merge:main',
     ]},
