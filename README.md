@@ -49,4 +49,5 @@ merge(path="src/", save_path="result_3.jpg", col=3)
 ```
 
 result:
+
 ![avatar](doc/result_3.jpg)
