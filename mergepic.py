@@ -70,6 +70,10 @@ def merge(path=None, save_path=None, col=None, scale=None, padding_color=None, h
 	print("Result Image Size: {} x {}".format(img.shape[0], img.shape[1]))
 	print("Image saved to: {} (If no result generated, plz check is dict made already!)".format(save_path))
 
+
+def __version__():
+    return "1.0"
+
 if __name__ == '__main__':
 	merge(path="src/", save_path="result.jpg", col=5)
 
