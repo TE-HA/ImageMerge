@@ -13,7 +13,4 @@ setup(
     include_package_data = True,
     platforms = "any",
     install_requires =[],
-    entry_points={'console_scripts': [
-        'ent = mergepic.merge:main',
-    ]},
 )
