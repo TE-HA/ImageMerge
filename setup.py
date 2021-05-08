@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name = "mergepic",
     version = "1.0",
-    keywords = ("image", "merge"),
+    keywords = ["image", "merge"],
     description = "image merge",
     long_description = "Provide a dictionary contains several images, row, every image scale (or padding), output merge result.",
 
@@ -13,4 +13,5 @@ setup(
     include_package_data = True,
     platforms = "any",
     install_requires =[],
+    zip_safe=False,
 )
